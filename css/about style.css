@@ -1,10 +1,45 @@
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    margin: auto;
+}
+
 section{
     width: 100%;
+}
+#gallery div{
+    border-style: solid;
+    border-radius: 17px;
+    border-color: lightsteelblue;
+    text-align: center;
+    margin: 0.2em;
+}
+.gallery div{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    border-style: solid;
+    border-radius: 17px;
+    border-color: lightsteelblue;
+}
+
+.gallery table{
+    border-style: solid;
+    border-radius: 17px;
+    border-color: lightsteelblue;
+    margin: 0.1em;
 }
 
 #aboutus{
     padding: 2em; 
-    background-color: #e7e7e7;
+    background-color: rgba(192, 215, 235, 0.438);
+}
+
+#aboutus section{
+    margin: 0;
 }
 
 #aboutus div {
@@ -21,37 +56,30 @@ section{
     height: auto;
 }
 
-.box1 {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.8);
-    width: 600px;
-    margin:0 auto;
-    font-family: Microsoft JhengHei;
-    font-size: 14px;
-    border: 1px rgb(0, 131, 148) solid;
-    height: 45px;
-}
-.box2 {
-    background-color: rgba(255, 255, 255, 0.6);
-    width: 300px;
-    border-radius: 17px;
-    -moz-border-radius: 17px;
-    -webkit-border-radius: 17px;
-    display: inline-block;
-    margin: 5px;
-    border: 1px rgb(0, 131, 148) solid;
-    text-align: center;
-}
-.box3 {
-    background-color: rgba(255, 255, 255, 0.6);
-    width: 275px;
-    border-radius: 17px;
-    -moz-border-radius: 17px;
-    -webkit-border-radius: 17px;
-    display: inline-block;
-    margin: 5px;
-    border: 1px rgb(0, 131, 148) solid;
-    text-align: center;
+.first div{
+    width: 50vh;
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+    padding: 0.3em;
 }
 
+.second div{
+    width: 50vh;
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+    padding: 0.3em;
+}
+
+.third div{
+    width: 50vh;
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+    padding: 0.3em;
+}
+
+.fourth div{
+    width: 50vh;
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+    padding: 0.3em;
+}
